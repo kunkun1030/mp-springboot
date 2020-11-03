@@ -27,6 +27,7 @@ public class UserMapperTest {
 
     @Test
     public void testSelectAll() {
+        System.out.println("稳哥在改bug");
         List<User> userList = userMapper.selectList(null);
         for (User user : userList) {
             System.out.println(user);
